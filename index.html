@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/doors.css">
+    <link rel="stylesheet" href="css/reset-default.css">
+    <title>Калькулятор - ворота</title>
+</head>
+<body>
+    <section class="calculator_block">
+        <div class="calculator_body wrapped">
+            <div class="calculator">
+
+
+                <!--Отображение результата-->
+
+                <div class="info_block">
+                    <div class="headliner">Гаражные секционные ворота</div>
+                    <div class="door_display">
+                        <img src="img/haustuer_motiv_515.png" alt="">
+                    </div>
+                    <div class="reset"></div>
+                </div>
+
+
+                <!--Блок выбора-->
+
+                <div class="manipulation_block">
+                    <div class="manipulation_block_el model">
+                        <div class="manipulation_title">Модель двери <span class="reload">Сброс</span></div>
+                        <div class="manipulation_action">
+                            <div class="selector">
+                                <select name="model_sel" id="model_sel">
+                                    <option data-price="0">Входная дверь Thermo65</option>
+                                    <option data-price="1">Входная дверь Thermo65 (без защиты от взлома RC2)</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="manipulation_block_el type">
+                        <div class="manipulation_title">Мотив: <span class="info" data-info="type">&#9432; Узнать больше</span></div>
+                        <div class="manipulation_action door_model">
+                          <div class="door_model_block show_clc">
+                                <div class="door_item active_clc item" data-price="120000">
+                                    <img src="img/haustuer_motiv_515.png" alt="">
+                                    <div class="manipulation_label">Мотив THP 515</div>
+                                </div>
+                                <div class="door_item item" data-price="120000">
+                                    <img src="img/haustuer_motiv_015.png" alt="">
+                                    <div class="manipulation_label">Мотив THP 015</div>
+                                </div>
+                                <div class="door_item item" data-price="120000">
+                                    <img src="img/haustuer_motiv_010.png" alt="">
+                                    <div class="manipulation_label">Мотив THP 010</div>
+                                </div>
+                                <div class="door_item item" data-price="142000">
+                                    <img src="img/haustuer_motiv_900S.png" alt="">
+                                    <div class="manipulation_label">Мотив 900S</div>
+                                </div>
+                                <div class="door_item item" data-price="142000">
+                                    <img src="img/haustuer_motiv_810S.png" alt="">
+                                    <div class="manipulation_label">Мотив 810S</div>
+                                </div>
+                                <div class="door_item item" data-price="142000">
+                                    <img src="img/haustuer_motiv_700S.png" alt="">
+                                    <div class="manipulation_label">Мотив 700S</div>
+                                </div>
+                        </div>
+                        <div class="door_model_block hide">
+                            <div class="door_item item" data-price="126500">
+                                <img src="img/haustuer_motiv_TPS750F.png" alt="">
+                                <div class="manipulation_label">Мотив 750F</div>
+                            </div>
+                            <div class="door_item item" data-price="126500">
+                                <img src="img/haustuer_motiv_TPS700A.png" alt="">
+                                <div class="manipulation_label">Мотив 700A</div>
+                            </div>
+                      </div>
+                    </div>
+                    </div>
+                    <div class="manipulation_block_el color">
+                        <div class="manipulation_title">Цвет | Декоративная отделка</div>
+                        <div class="manipulation_action colors">
+                            <div class="for_prot ssax show_clc">
+                                <div class="imagecover active_clc item"><img  title="RAL 9016, белый" src="img/Woodgrain_RAL9016.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="RAL 7016, серый антрацит" src="img/Woodgrain_RAL7016.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="RAL 8028, коричневый" src="img/Woodgrain_RAL8028.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="RAL 9006, цвет белого алюминия" src="img/Woodgrain_RAL9006.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="RAL 9007, цвет серого алюминия" src="img/Woodgrain_RAL9007.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="CH 703, антрацит 'металлик'" src="img/Woodgrain_CH703.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="Золотой дуб" src="img/Decocolor_Golden-Oak.jpg" alt="Золотой дуб"></div>
+                                <div class="imagecover item"><img title="Тёмный дуб" src="img/Decocolor_Dark-Oak.jpg" alt="Темный дуб"></div>
+                                <div class="imagecover item"><img title="Ночной дуб" src="img/Decocolor_Night-Oak.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="CH 9016 Matt deluxe, белый" src="img/Planar_CH9016.jpg" alt="CH 9016 Matt deluxe, белый"></div>
+                                <div class="imagecover item"><img title="CH 7016 Matt deluxe, серый антрацит" src="img/Planar_CH7016.jpg" alt="CH 7016 Matt deluxe, серый антрацит"></div>
+                                <div class="imagecover item"><img title="CH 8028 Matt deluxe, коричневый" src="img/Planar_CH8028.jpg" alt="CH 9016 Matt deluxe, коричневый"></div>
+                                <div class="imagecover item"><img title="CH 9006 Matt deluxe, цвет белого алюминия" src="img/Planar_CH9006.jpg" alt="CH 9016 Matt deluxe, цвет белого алюминия"></div>
+                                <div class="imagecover item"><img title="CH 703, Matt deluxe, антрацит «металлик»" src="img/Woodgrain_CH703.jpg" alt="CH 703, Matt deluxe, антрацит «металлик»"></div>
+                                <div class="imagecover item"><img title="CH 9007, Matt deluxe, цвет серого алюминия" src="img/Planar_CH9007.jpg" alt="CH 9007 Matt deluxe, белый"></div>
+                            </div>
+                            <div class="for_nonprot ssax hide">
+                                <div class="imagecover item"><img  title="RAL 9016, белый" src="img/Woodgrain_RAL9016.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="RAL 7016, серый антрацит" src="img/Woodgrain_RAL7016.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="RAL 8028, коричневый" src="img/Woodgrain_RAL8028.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="Золотой дуб" src="img/Decocolor_Golden-Oak.jpg" alt="Золотой дуб"></div>
+                                <div class="imagecover item"><img title="Тёмный дуб" src="img/Decocolor_Dark-Oak.jpg" alt="Темный дуб"></div>
+                                <div class="imagecover item"><img title="Ночной дуб" src="img/Decocolor_Night-Oak.jpg" alt=""></div>
+                                <div class="imagecover item"><img title="CH 703, антрацит 'металлик'" src="img/Woodgrain_CH703.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="manipulation_block_el sizing">
+                        <div class="manipulation_title">Размеры: (Ширина × Высота) </div>
+                        <p>До 1250 x 2250 мм, изготовление по размерам заказчика без надбавки к цене</p>
+                    </div>
+                </div>
+            </div>
+            <div class="summary">
+                <div class="summary_info">
+                    <div class="headliner">Ваши ворота:</div>
+                    <p><span class="hnw"></span><span class="gof"></span><span class="surface"></span><span class="clr"></span></p>
+                </div>
+                <div class="summary_price">
+                    120000 Р *
+                </div>
+            </div>
+            <div class="order"><a class="headliner" href="https://www.vorota-surgut.ru/zakazat-produktsiyu">Заказать</a></div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            const clc_block = document.querySelector('.calculator_block');
+
+    const select = clc_block.querySelector('#model_sel');
+
+    sum_price = clc_block.querySelector('.summary_price');
+    function count(){
+        let active_clc = clc_block.querySelectorAll('.active_clc'),
+            hnw = clc_block.querySelector('.hnw'),
+            gof = clc_block.querySelector('.gof'),
+            surface = clc_block.querySelector('.surface'),
+            clr = clc_block.querySelector('.clr');
+        hnw.innerText = select.value + ', ';
+        gof.innerText = active_clc[0].querySelector('.manipulation_label').innerText + ', ';
+        clr.innerText = active_clc[1].querySelector('img').getAttribute('title');
+        sum_price.innerHTML = active_clc[0].getAttribute('data-price') + ' P *';
+
+    }
+
+
+
+
+    const type = clc_block.querySelector('.type .manipulation_action'),
+    type_item = clc_block.querySelectorAll('.type .manipulation_action .item')
+
+
+    const door_block = clc_block.querySelectorAll('.door_model_block');
+    select.addEventListener('input', function(e){
+        door_block.forEach(el => {
+            el.classList.add('hide');
+            el.classList.remove('show_clc');
+        })
+        color_select.forEach(el => {
+            el.classList.add('hide');
+            el.classList.remove('show_clc');
+        })
+        door_block[select.selectedIndex].classList.remove('hide')
+        door_block[select.selectedIndex].classList.add('show_clc')
+        color_select[select.selectedIndex].classList.remove('hide')
+        color_select[select.selectedIndex].classList.add('show_clc')
+        clc_block.querySelectorAll('.show_clc').forEach(el =>{
+            // el.querySelectorAll('.item')[0].click();
+            el.querySelectorAll('.item img')[0].click();
+        })
+        count();
+    });
+    
+
+    const door = clc_block.querySelectorAll('.door_item');
+    door.forEach(el => {
+        el.addEventListener('click', function(e){
+            if(e.currentTarget && e.currentTarget.classList.contains('item')){
+                door.forEach(el => {
+                    el.classList.remove('active_clc');
+                })
+                e.currentTarget.classList.add('active_clc')
+            }
+            console.log(this.querySelector('img'));
+            gate_back.src = this.querySelector('img').src;
+            count();
+        })
+    })
+    
+
+    const color_select = clc_block.querySelectorAll('.colors .ssax');
+    const gate_back = clc_block.querySelector('.door_display img');
+    let color_items = clc_block.querySelectorAll('.colors .item');
+    color_select.forEach(el => {
+        el.addEventListener('click', function(e){
+           if (e.target.tagName === 'IMG'){
+            gate_back.style.background = `url(${e.target.src})`
+            color_items.forEach(el => {
+                el.classList.remove('active_clc')
+            })
+            e.target.closest('div').classList.add('active_clc');
+
+           }
+           count()
+        })
+    })
+    
+
+    const texture_sel = clc_block.querySelectorAll('.texture .manipulation_action .item');
+    let nodes = [].slice.call(texture_sel); 
+    texture_sel.forEach(el => {
+        el.addEventListener('click', function(e){
+            if (e.currentTarget && e.currentTarget.classList.contains('item') && !e.currentTarget.classList.contains('blocked')){
+                texture_sel.forEach(el => {
+                    el.classList.remove('active_clc')
+                })
+
+                e.currentTarget.classList.add('active_clc')
+                
+            }
+            color_select.forEach(el => {
+                el.classList.add('hide')
+                el.classList.remove('show_clc')
+            })
+            let i = clc_block.querySelectorAll('.active_clc')[1];
+            color_select[nodes.indexOf(i)].classList.add('show_clc')
+            color_select[nodes.indexOf(i)].classList.remove('hide')
+            clc_block.querySelectorAll('.show_clc img')[0].click();
+            count()
+        })
+
+    })
+    console.log(nodes);
+
+    function reset(){
+        type_item[0].click();
+        select.selectedIndex = 0;
+        select.dispatchEvent(new Event('input'))
+        color_items[0].querySelector('img').click();
+        count()
+    }
+    // reset()
+    clc_block.querySelector('.reload').addEventListener('click', function(){
+        reset()
+    })
+    clc_block.querySelectorAll('.info').forEach(el => {
+        el.addEventListener('click', function(){
+            window.location.href = 'https://www.vorota-surgut.ru/img/files/sek_gates_home1.pdf'
+        });
+    })
+});
+    </script>
+</body>
+</html>
